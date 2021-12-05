@@ -20,6 +20,12 @@ __
 * _Open index.html_
 
 
+## Specifications
+
+Describe: diceRoll()
+Code: diceRoll(1)
+Expected Output: Between 1 and 6.
+
 ## Known Bugs
 
 * _No known bugs at this time._
