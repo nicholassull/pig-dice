@@ -27,3 +27,7 @@
 .rollHistory {
   margin: 0 25px;
 }
+
+.buttonReveal {
+  display: none;
+}
