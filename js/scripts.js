@@ -38,4 +38,16 @@ $(document).ready(function() {
       $(".playerTwoZone").toggle();
     }
   });
+  $("#playerTwoRollDice").click(function() {
+    let roll = dieRoll();
+    if (roll !== 1) {
+      roundScore += roll;
+      $("#playerTwoRollHistory").append("<li>" + roll + "</li>");
+    } else {
+      roundScore = 0
+      $("#playerTwoRollHistory").append("<li>" + roll + "</li>");
+      $(".playerOneZone").toggle();
+      $(".playerTwoZone").toggle();
+    }
+  });
 });
