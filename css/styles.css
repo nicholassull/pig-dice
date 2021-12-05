@@ -28,6 +28,10 @@
   margin: 0 25px;
 }
 
-.buttonReveal {
+.playerOneZone {
+  display: inline;
+}
+
+.playerTwoZone {
   display: none;
 }
