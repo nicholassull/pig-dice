@@ -5,3 +5,25 @@
 .btn {
   width: 100%;
 }
+
+#playerOneScore, #playerTwoScore {
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 25px;
+  font-family: monospace;
+  font-size: 3rem;
+}
+
+.playerOneRoll, .playerTwoRoll {
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin: 4px auto;
+  padding: 4px;
+  font-family: monospace;
+  text-align: center;
+}
+
+.rollHistory {
+  margin: 0 25px;
+}

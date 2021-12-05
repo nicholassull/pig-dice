@@ -21,11 +21,17 @@ __
 
 
 ## Specifications
-
+```
 Describe: diceRoll()
+Purpose: Generate a whole number between 1 and 6.
 Code: diceRoll(1)
 Expected Output: Between 1 and 6.
 
+Describe: fullGame()
+Purpose: When called, only one player's turn should = True.
+Code: fullGame()
+Expected Output: True, False or False, True
+```
 ## Known Bugs
 
 * _No known bugs at this time._

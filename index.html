@@ -18,13 +18,21 @@
           <div class="card-body">
             <h2 class='text-center'>Player 1</h2>
             <div class="row">
+              <div id="playerOneScore" class="col-6 align-self-center text-center">SCORE</div>
+            </div>
+            <div class="row">
               <div class="col-6">
-                <button type="button" class="btn btn-primary">Roll Dice</button>
+                <div class="playerOneRoll col-2 align-self-center" class="text-center">6</div>
+                <button type="button" id='playerOneRollDice' class="btn btn-primary">Roll Dice</button>
               </div>
               <div class="col-6">
-                <button type="button" class="btn btn-secondary">Finish Turn</button>
+                <button type="button" id='playerOneEndTurn' class="btn btn-secondary">Finish Turn</button>
               </div>
             </div>
+          </div>
+          <div class='rollHistory'>
+            <p>Roll History:</p>
+            <ul id="playerOneRollHistory"></ul>
           </div>
         </div>
       </div>
@@ -34,13 +42,21 @@
           <div class="card-body">
             <h2 class='text-center'>Player 2</h2>
             <div class="row">
+              <div id="playerTwoScore" class="col-6 align-self-center text-center">SCORE</div>
+            </div>
+            <div class="row">
               <div class="col-6">
-                <button type="button" class="btn btn-primary">Roll Dice</button>
+                <div class="playerTwoRoll col-2 align-self-center" class="text-center">6</div>
+                <button type="button" id='playerTwoRollDice' class="btn btn-primary">Roll Dice</button>
               </div>
               <div class="col-6">
-                <button type="button" class="btn btn-secondary">Finish Turn</button>
+                <button type="button" id='playerTwoEndTurn' class="btn btn-secondary">Finish Turn</button>
               </div>
             </div>
+          </div>
+          <div class='rollHistory'>
+            <p>Roll History:</p>
+            <ul id="playerTwoRollHistory"></ul>
           </div>
         </div>
       </div>

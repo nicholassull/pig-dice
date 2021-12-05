@@ -6,11 +6,15 @@ function dieRoll() {
 
 function Player() {
   this.totalScore = 0;
-  this.roundScore = 0;
   this.turn = false;
 }
 
 //Business Logic
+function gameTurn() {
+  let roundScore = 0;
+
+}
+
 function fullGame() {
   let playerOne = new Player();
   let playerTwo = new Player();
@@ -19,8 +23,6 @@ function fullGame() {
   } else {
     playerTwo.turn = true;
   }
-  console.log(playerTwo.turn);
-  console.log(playerOne.turn);
 }
 
 
@@ -32,6 +34,23 @@ function fullGame() {
 //User Interface Logic
 $(document).ready(function() {
   $("#play-button").click(function() {
-    
+    let gameResult = fullGame();
+    // if (gameResult === 1) {
+      
+    // }
+    // else if (gameResult === 2) {
+
+    // }
+    let roll = 0;
+    let turnScore = 0;
+    while (roll !== 1) {
+      roll = dieRoll();
+      if (roll === 1) {
+        turnScore = 0;
+      }
+      else if (roll !== 1) {
+        turnScore += roll;
+      }
+    }
   });
 });
