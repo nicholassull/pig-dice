@@ -1,22 +1,26 @@
-# _Title_
+# _Pig Dice_
 
-#### By _**Nick Sullivan and Elliot McGonigal**_
+#### By _**Nick Sullivan, Phil Curran and Elliot McGonigal**_
 
-#### _Short description_
+#### _A webpage to play Pig Dice_
 
 ## Technologies Used
 
-* __
+* _HTML_
+* _CSS_
+* _JavaScript_
+* _Bootstrap_
+* _jQuery_
 
 ## Description
 
-__
+_This webpage allows two users to play Pig Dice together. Each user takes turns rolling a 6 sided die to increase their score. When they roll a 1, the user loses all points for that round and the next user is allowed to begin rolling. Total scores, most recent roll, and role history are all displayed for each user._
 
 ## Setup Instructions
 
 * _Open your terminal and navigate to the folder you'd like to download the files into._
 * _Run the command below_
-> git clone https://github.com/nicholassull/portfolio-landing
+> git clone https://github.com/nicholassull/pig-dice
 * _Open index.html_
 
 
@@ -38,7 +42,7 @@ Expected Output: True, False or False, True
 
 ## License
 
-Copyright (c) _10/27/2021_ _by Nick Sullivan and Elliot McGonigal_
+Copyright (c) _10/27/2021_ _by Nick Sullivan, Phil Curran and Elliot McGonigal_
 
 
 _Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:_
