@@ -18,11 +18,13 @@
           <div class="card-body">
             <h2 class='text-center'>Player 1</h2>
             <div class="row">
-              <div id="playerOneScore" class="col-6 align-self-center text-center"></div>
+              <div id="playerOneScore" class="col-6 align-self-center text-center">0</div>
+            </div>
+            <div class="row">
+              <div class="playerOneRoll col-2 align-self-center text-center">&#8203;</div>
             </div>
             <div class="row playerOneZone">
               <div class="col-6">
-                <div class="playerOneRoll col-2 align-self-center" class="text-center">6</div>
                 <button type="button" id='playerOneRollDice' class="btn btn-primary">Roll Dice</button>
               </div>
               <div class="col-6">
@@ -42,11 +44,14 @@
           <div class="card-body">
             <h2 class='text-center'>Player 2</h2>
             <div class="row">
-              <div id="playerTwoScore" class="col-6 align-self-center text-center"></div>
+              <div id="playerTwoScore" class="col-6 align-self-center text-center">0</div>
             </div>
+            <div class="row">
+              <div class="playerTwoRoll col-2 align-self-center text-center">&#8203;</div>
+            </div>
+            <br>
             <div class="row playerTwoZone">
               <div class="col-6">
-                <div class="playerTwoRoll col-2 align-self-center" class="text-center">6</div>
                 <button type="button" id='playerTwoRollDice' class="btn btn-primary">Roll Dice</button>
               </div>
               <div class="col-6">
@@ -60,9 +65,6 @@
           </div>
         </div>
       </div>
-
-      <button type="button" id='play-button' class="btn btn-secondary">Play Button</button>
-
     </div>
   </div>
 </body>
