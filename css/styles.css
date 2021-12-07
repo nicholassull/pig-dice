@@ -2,6 +2,11 @@ body {
   background-color: #4c5f6b;
 }
 
+#main-content {
+  max-width: 950px;
+  padding: auto 0;
+}
+
 .game {
   margin-top: 100px;
 }
