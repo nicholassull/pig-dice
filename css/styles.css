@@ -1,13 +1,23 @@
+body {
+  background-color: #4c5f6b;
+}
+
 .game {
   margin-top: 100px;
 }
 
+.card {
+  background-color: #83a0a0;
+  border: solid #6d5f77 5px;
+}
+
 .btn {
   width: 100%;
+  margin: 3px;
 }
 
 #playerOneScore, #playerTwoScore {
-  border: 1px solid #333;
+  border: 2px solid #333;
   border-radius: 4px;
   margin: 20px auto;
   padding: 25px;
@@ -16,7 +26,7 @@
 }
 
 .playerOneRoll, .playerTwoRoll {
-  border: 1px solid #333;
+  border: 2px solid #333;
   border-radius: 4px;
   margin: 4px auto;
   padding: 4px;

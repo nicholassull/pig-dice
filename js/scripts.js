@@ -5,7 +5,6 @@ function dieRoll() {
 
 function Player() {
   this.totalScore = 0;
-  this.turn = false;
   this.roundScore = 0;
 }
 
